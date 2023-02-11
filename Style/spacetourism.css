@@ -1,37 +1,57 @@
 body {
   margin-top: 0px;
   margin-left: 0px;
-  width: 100px;
 }
-.container {
-  border-bottom-style: solid;
-  border-bottom-color: grey;
-  border-bottom-width: thin;
+.space {
+  width: 1315px;
+  height: 695px;
 }
-
+.logo-container {
+  margin-top: 20px;
+  margin-left: 20px;
+}
 .logo {
-  size: 40px;
+  size: 70px;
   margin-top: 30px;
 }
 .nav-container {
-  margin-top: -880px;
-  margin-left: 40px;
+  margin-top: -680px;
+  margin-left: 50px;
   background-color: green;
 }
 .button-container {
   display: flex;
   flex-direction: row;
-  margin-top: -35px;
-  margin-left: 660px;
+  background-color: rgb(30, 30, 47);
+  width: 865px;
+  height: 70px;
+  margin-top: -60px;
+  margin-left: 400px;
+  filter: opacity(70%);
 }
-.navbar {
-  margin-right: 30px;
-  margin-left: 40px;
+.nav-button {
+  width: 150px;
+  height: 40px;
+  border: none;
+  background-color: rgb(30, 30, 47);
+  color: white;
+  margin-top: 15px;
+  margin-right: 20px;
+  margin-left: 30px;
+}
+.travel-infor {
+  margin-top: 200px;
 }
 .space-infor {
-  width: 450px;
-  margin-top: 200px;
-  margin-left: 230px;
+  width: 300px;
+  height: 700px;
+  margin-top: -35px;
+  margin-left: 180px;
+  border-top-style: solid;
+  border-top-color: rgb(47, 47, 72);
+  border-top-style: solid;
+  border-top-width: thin;
+  filter: opacity(70%);
 }
 .space-title {
   color: rgb(155, 146, 146);
