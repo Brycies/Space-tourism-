@@ -14,7 +14,7 @@ body {
 .space-travel {
   width: 1200px;
   height: 570px;
-  background-color: yellow;
+
   filter: opacity(70%);
 }
 .nav-container {
@@ -46,6 +46,7 @@ body {
   margin-top: 20px;
   color: white;
   border: none;
+  cursor: pointer;
   background-color: rgb(30, 30, 47);
 }
 .home-button {
@@ -54,6 +55,7 @@ body {
   margin-right: 30px;
   margin-top: 20px;
   color: white;
+  cursor: pointer;
   border: none;
   background-color: rgb(30, 30, 47);
   border-bottom-style: solid;
@@ -93,13 +95,12 @@ body {
   margin-top: 0px;
 }
 .explore-container {
-  margin-left: 440px;
-  margin-top: -190px;
+  margin-left: 460px;
+  margin-top: -250px;
 }
 .explore {
   width: 290px;
   height: 300px;
   border-radius: 140px;
-  filter: opacity(100%);
-  background-color: white;
+  filter: opacity(1000%);
 }
